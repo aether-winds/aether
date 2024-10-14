@@ -1,0 +1,22 @@
+{
+  "name": "@aether",
+  "version": "0.0.0-alpha",
+  "description": "The AetherWinds development environment and framework.",
+  "keywords": ["aether", "aetherwinds", "development", "framework"],
+  "homepage": "https://github.com/aether-winds/aether#README.md",
+  "bugs": {
+    "url": "https://github.com/aether-winds/aether/issues"
+  },
+  "author": {
+    "name": "Patrick Ortiz",
+    "email": "pogithub+pzychotis@gmail.com",
+    "url": "https://github.com/aether-winds"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aether-winds/aether.git"
+  },
+  "scripts": {},
+  "config": {}
+}
