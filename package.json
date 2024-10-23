@@ -1,11 +1,9 @@
 {
   "name": "aether",
   "version": "0.0.0-alpha",
-  "description": "The AetherWinds development environment and framework.",
+  "description": "The Aether development environment and framework.",
   "keywords": [
     "aether",
-    "aetherwinds",
-    "winds",
     "development",
     "framework"
   ],

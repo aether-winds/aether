@@ -6,6 +6,9 @@
   "bin": {
     "aw": "./src/cli.mjs"
   },
+  "directories": {
+    "src": "./src"
+  },
   "author": {
     "name": "Patrick Ortiz",
     "email": "pogithub+pzychotis@gmail.com",
