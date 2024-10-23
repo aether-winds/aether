@@ -1,0 +1,23 @@
+{
+  "name": "@aether/cli",
+  "version": "0.0.0-alpha",
+  "description": "The cli module of the Aether framework.",
+  "type": "module",
+  "bin": {
+    "aw": "./src/cli.mjs"
+  },
+  "author": {
+    "name": "Patrick Ortiz",
+    "email": "pogithub+pzychotis@gmail.com",
+    "url": "https://github.com/aether-winds"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aether-winds/aether.git",
+    "directory": "cli"
+  },
+  "dependencies": {
+    "yargs": ">=17.7.x <17.8.x"
+  }
+}
