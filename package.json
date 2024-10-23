@@ -1,8 +1,14 @@
 {
-  "name": "@aether",
+  "name": "aether",
   "version": "0.0.0-alpha",
   "description": "The AetherWinds development environment and framework.",
-  "keywords": ["aether", "aetherwinds", "development", "framework"],
+  "keywords": [
+    "aether",
+    "aetherwinds",
+    "winds",
+    "development",
+    "framework"
+  ],
   "homepage": "https://github.com/aether-winds/aether#README.md",
   "bugs": {
     "url": "https://github.com/aether-winds/aether/issues"
@@ -17,6 +23,13 @@
     "type": "git",
     "url": "git+https://github.com/aether-winds/aether.git"
   },
-  "scripts": {},
-  "config": {}
+  "workspaces": [
+    "cli"
+  ],
+  "config": {
+    "test": {
+      "a": 1,
+      "c": 3
+    }
+  }
 }
