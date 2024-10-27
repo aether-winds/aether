@@ -4,7 +4,7 @@
   "description": "The cli module of the Aether framework.",
   "type": "module",
   "bin": {
-    "aw": "./src/cli.mjs"
+    "ae": "./src/cli.mjs"
   },
   "directories": {
     "src": "./src"
