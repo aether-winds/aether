@@ -21,6 +21,7 @@
     "directory": "cli"
   },
   "dependencies": {
+    "@inquirer/prompts": ">=7.1.x <7.2.x",
     "yargs": ">=17.7.x <17.8.x"
   }
 }

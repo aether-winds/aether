@@ -23,11 +23,5 @@
   },
   "workspaces": [
     "cli"
-  ],
-  "config": {
-    "test": {
-      "a": 1,
-      "c": 3
-    }
-  }
+  ]
 }
