@@ -1,26 +1,26 @@
 {
-  "name": "aether",
-  "version": "0.0.0-alpha",
-  "description": "The Aether development environment and framework.",
-  "keywords": [
-    "aether",
-    "development",
-    "framework"
-  ],
-  "homepage": "https://github.com/aether-winds/aether#README.md",
-  "bugs": {
-    "url": "https://github.com/aether-winds/aether/issues"
-  },
   "author": {
     "name": "Patrick Ortiz",
     "email": "pogithub+pzychotis@gmail.com",
     "url": "https://github.com/aether-winds"
   },
+  "bugs": {
+    "url": "https://github.com/aether-winds/aether/issues"
+  },
+  "description": "The Aether development environment and framework.",
+  "homepage": "https://github.com/aether-winds/aether#README.md",
+  "keywords": [
+    "aether",
+    "development",
+    "framework"
+  ],
   "license": "SEE LICENSE IN LICENSE",
+  "name": "aether",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aether-winds/aether.git"
   },
+  "version": "0.0.0-alpha",
   "workspaces": [
     "cli"
   ]

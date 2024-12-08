@@ -1,0 +1,2 @@
+exports.capitalize = (string) => `${string[0].toUpperCase()}${string.substr(1)}`;
+exports.validateOrThrow = (predicate, Exception, ...expectionValues) => { if (!predicate) throw new Exception(...expectionValues) };

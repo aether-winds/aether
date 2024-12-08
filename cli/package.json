@@ -1,27 +1,27 @@
 {
-  "name": "@aether/cli",
-  "version": "0.0.0-alpha",
-  "description": "The cli module of the Aether framework.",
-  "type": "module",
-  "bin": {
-    "ae": "./src/cli.mjs"
-  },
-  "directories": {
-    "src": "./src"
-  },
   "author": {
     "name": "Patrick Ortiz",
     "email": "pogithub+pzychotis@gmail.com",
     "url": "https://github.com/aether-winds"
   },
+  "bin": {
+    "ae": "./src/cli.mjs"
+  },
+  "dependencies": {
+    "@inquirer/prompts": ">=7.1.x <7.2.x",
+    "yargs": ">=17.7.x <17.8.x"
+  },
+  "description": "The cli module of the Aether framework.",
+  "imports": {
+    "#commands": "./src/commands/*"
+  },
   "license": "SEE LICENSE IN LICENSE",
+  "name": "@aether/cli",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aether-winds/aether.git",
     "directory": "cli"
   },
-  "dependencies": {
-    "@inquirer/prompts": ">=7.1.x <7.2.x",
-    "yargs": ">=17.7.x <17.8.x"
-  }
+  "type": "module",
+  "version": "0.0.0-alpha"  
 }
